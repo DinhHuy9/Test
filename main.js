@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.set('view engin', 'hbs')
+app.set('view engine', 'hbs')
 
 app.get('/', (req, res) => {
     const n = new Date().toLocaleTimeString()
